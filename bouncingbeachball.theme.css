@@ -1,0 +1,70 @@
+//META{"name":"BouncingBeachballs","description":"This theme has everything minus actual beach balls","author":"x86#9079","version":"AutoUpdate"}*//{}
+
+/* Please keep !important by each option, this helps override the fallback system */
+@import url("https://cdn.staticaly.com/gh/rootmeskids/BetterDiscord-Themes/f2888928/finger.theme.css");
+:root {
+    /* Background */
+    --custombackground: url(https://m.xhamster.com/photos/gallery/6496967/112806041#photoCurr);
+    --blur: 0px !important;
+    --opacitybg: 0.5 !important;
+
+    /* Accent Colors */
+    --accentcolor: #738bd7 !important;   /* To reset the color back to default, use #738bd7 */
+    --accenttext: white !important; /* Use this to change the text colors that are on top of the accentcolor, this is to help make text readable if you're using a bright accent color */
+
+    /* Fonts */
+    --fontchat: Whitney !important;
+    --fontcategoryname: Whitney !important;
+    --fontrolename: Whitney !important;
+    --fontchannelname: Whitney !important;
+    --fonttooltip: Whitney !important;
+    --fontusername: Whitney !important;
+
+    /* Font Sizes */
+    --fontchatsize: 15px !important;
+    --fontcategorynamesize: 12px !important;
+    --fontrolenamesize: 12px !important;
+    --fontchannelnamesize: 16px !important;
+    --fonttooltipsize: 14px !important;
+    --fontusernamesize: 15px !important;
+
+    /* Scrollbars */
+
+    --colorbar: white !important;
+    --widthbar: 14px !important;
+
+    /* Server Colors */
+    --serverselected: white !important;
+    --serverunread: white !important;
+
+    /* Home Icon */
+    --homeicon: url(https://cdn.discordapp.com/attachments/463532696820383754/489649105006493697/TheDWinkyFace.png);
+
+    /* Avatar Sizes in Chat */
+    --avatar: 40px !important;
+
+    /* Emojis */
+    --emojisize: 30px  !important;
+    --emojimenuheight: 374px !important;
+
+    /* Windows Titlebar Customization */
+    --closeButton: url();
+    --maxButton: url();
+    --minButton: url();
+    --sizeOfButtons: 16px;
+
+    --defaulttb: 1 !important; /* change to 0 to hide default icons */
+
+    /* macOS Titlebar - Colors*/
+    --macOSClose: red !important;
+    --macOSMin: yellow !important;
+    --macOSMax: green !important;
+
+    /* Transparency of pop up backgrounds */
+    --backgroundpopup: 1 !important; /* 0 for no background or 0.5 or half transparency */
+}
+  @import url(https://cdn.staticaly.com/gh/CorbsEditor/Themes-for-BetterDiscord/master/Expose%20X/Templates/Titlebar/Windows10Size.theme.css);
+  @import url(https://cdn.staticaly.com/gh/CorbsEditor/Themes-for-BetterDiscord/master/Expose%20X/Templates/Titlebar/Default.theme.css);
+
+  @import url(https://cdn.staticaly.com/gh/CorbsEditor/Themes-for-BetterDiscord/master/Expose%20X/Templates/macOS%20Titlebar/Default.theme.css);
+  @import url(https://cdn.staticaly.com/gh/CorbsEditor/Themes-for-BetterDiscord/master/Expose%20X/Templates/Upload%20Modal/Default.theme.css);
